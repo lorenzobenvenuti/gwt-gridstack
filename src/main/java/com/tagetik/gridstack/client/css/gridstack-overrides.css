@@ -1,0 +1,8 @@
+/* Override of the resize handle (to avoid FontAwesome dependency) */
+.grid-stack > .grid-stack-item > .ui-resizable-se {
+  background-image: url("img/resize.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: none;
+  font-size: 0;
+}
